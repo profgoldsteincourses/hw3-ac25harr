@@ -20,7 +20,8 @@ def makeID( firstName, lastName ):
     return ID
 
 
-# main prompts the user ....
+# main prompts the user for their first and last name 
+# creates an ID using makeID, and prints the new ID
 def main():
     # Ask for their first name
     firstName = input("What is your first name? ")
